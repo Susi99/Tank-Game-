@@ -1,0 +1,10 @@
+{
+  "name": "tank-game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @tank/common build && pnpm -r --parallel --filter '!@tank/common' dev",
+    "build": "pnpm --filter @tank/common build && pnpm -r --filter '!@tank/common' build",
+    "start": "pnpm --filter @tank/server start"
+  }
+}
