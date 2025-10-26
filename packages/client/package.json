@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tank/common": "1.0.0",
+    "@tank/common": "workspace:^1.0.0",
     "phaser": "^3.70.0",
     "socket.io-client": "^4.7.5"
   },

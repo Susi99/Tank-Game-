@@ -10,7 +10,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@tank/common": "1.0.0",
+    "@tank/common": "workspace:^1.0.0",
     "dotenv": "^16.4.0",
     "nanoid": "^4.0.0",
     "pino": "^8.17.0",
